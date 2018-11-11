@@ -8,7 +8,7 @@ A mini console-based computer algebra system in Matlab style syntax. Input is pr
 
 - Real numbers in usual floating point syntax.
 
-- Mathematical expressions using the operations `+`, `-`, `*`, `/`, `%` (modulo), `^` (power), `!` (factorial) and brackets. Mathematical expressions are evaluated in the proper way respecting the common rules. Moreover `/` can be used as a unary operator for multiplicative inversion just in the same way as `-` is a unary operator for additive inversion, e.g. the expression `/2` is a valid expression for the term `0.5`. Infact virtually both `-` and `/` are treated only as unary operators and expressions like 2-1 are translated to 2 + -1 before evaluation. The unary operator `!` only accepts positive integers.
+- Mathematical expressions using the operations `+`, `-`, `*`, `/`, `%` (modulo), `^` (power), `!` (factorial) and brackets. Mathematical expressions are evaluated in the proper way respecting the common rules. Moreover `/` can be used as a unary operator for multiplicative inversion just in the same way as `-` can be used as a unary operator for additive inversion, e.g. the expression `/2` is a valid expression for the term `0.5`. Infact internally both `-` and `/` are treated only as unary operators and expressions like 2-1 are translated to 2 + -1 before evaluation. The unary operator `!` only accepts positive integers.
 
 - Imaginary numbers can be used via the unary operator `i`, e.g. `1+2i` is a valid expression for the corresponding complex number.
 
