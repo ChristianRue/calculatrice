@@ -26,7 +26,7 @@ A mini console-based computer algebra system in Matlab style syntax. Input is pr
     
 ## How to compile
 
-Compile all `*.cpp`-files with your favourite C++ compiler.
+Compile all `*.cpp`-files with your favorite C++ compiler.
     
 ## License
 
